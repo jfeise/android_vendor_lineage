@@ -170,7 +170,6 @@ endif
 # List of targets that use master side content protection
 MASTER_SIDE_CP_TARGET_LIST := msm8996 $(UM_4_4_FAMILY) $(UM_4_9_FAMILY) $(UM_4_14_FAMILY) $(UM_4_19_FAMILY)
 
-<<<<<<< HEAD
 # Opt-in for old rmnet_data driver
 ifeq ($(filter $(UM_5_15_FAMILY),$(TARGET_BOARD_PLATFORM)),)
     SOONG_CONFIG_rmnetctl_old_rmnet_data := true
